@@ -1,0 +1,80 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding:0;
+	background-position:center;
+}
+.start{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#one{
+	height: 100%;
+	position: absolute;
+	
+}
+#game{
+	width: 100%;
+	float: left;
+	margin-top: 450px;
+
+}
+
+
+#box{
+	width: 66%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+
+#box .item{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 12px;
+	border: 1px solid #fff;
+	line-height: 190px;
+	text-align: center;
+	font-size: 50px;
+	border-radius: 25px;
+}
+
+#box .white{
+	color: #fff;
+}
+
+#box .red{
+	color: red;
+}
+		
+#box .green{
+	color: green;
+}
+
+#box .transparent{
+	color: transparent;
+}
+		
+#menu{
+	position: relative;
+	width: 600px;
+	height: 30px;
+	margin: 0 auto;
+	display: flex;
+	color: #fff;
+	font-size: 22px;
+	padding-bottom: 20px;
+	justify-content: space-between;
+}
+
+#menu #round, #menu #chance, #menu #score{
+	width: 120px;
+}

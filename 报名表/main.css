@@ -1,0 +1,150 @@
+body{
+	/*height: 100%;*/
+	/*background-image: url(img/bg.png);*/
+	/*background-color: #ffadad;*/
+	/*background-size: 100%;*/
+	/*background-repeat: no-repeat;*/
+}
+.container-fluid{
+	/*height: 100%;*/
+	position: relative;
+	padding: 0;
+	/*text-align: center;*/
+}
+#bg1{
+	width: 100%;
+	
+	position: relative;
+}
+
+.container{
+	width: 78%;
+	position: absolute;
+	top:1%;
+	left: 12.5%;
+	/*margin-bottom: 25%;*/
+}
+.footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+form{
+
+	/*position: absolute;*/
+}
+form img{
+	width: 80%;
+}
+#btn{
+	width: 60%;
+	margin: 0 auto;
+}
+.form-group{
+	margin: 10px;
+
+}
+.form-control{
+	border: 1.5px #937e83 solid;
+	/*border-radius: 16px;*/
+	height: 31px;
+	padding-top: 0;
+	padding-bottom: 0;
+	
+}
+#zhiyuanyi2,#zhiyuaner2,#zhiyuansan2{
+	margin-top: 10px;
+}
+.radio img{
+	width: 80%;
+}
+.g{
+	width: 200px;
+	height: 80px;
+	background-color: #ece9db;
+	border: solid 1px #98b9a1;
+	color: #566e5e; 
+	border-radius: 10px;
+	padding-top: 2%;
+	position: absolute;
+	top: 950px;
+	left: 24%;
+	display: none;
+}
+.g p{
+	text-align: center;
+}
+.x{
+	width: 50px;
+	height: 30px;
+	background-color: #98b9a1;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+.x p{
+	line-height: 30px;
+}
+.xinxi{
+	margin-bottom: 5px;
+}
+.xinxi img{
+	width: 40%;
+}
+.yixiang{
+	margin-bottom: 5px;
+}
+.yixiang img{
+	width: 60%;
+}
+.shuoming{
+	margin-bottom: 5px;
+}
+.shuoming img{
+	width: 40%;
+}
+
+footer img{
+	width: 70%;
+}
+.beizhu{
+	margin-top: 65px;
+	width: 100%;
+	text-align: center;
+}
+.beizhu img{
+	width: 100%;
+}
+.xw1 img{
+	width: 70%;
+}
+.xw2 img{
+	width: 70%;
+}
+.form-control-text
+{
+	border: 1.5px #b9c9b4 solid;
+	/*border-radius: 16px;*/
+	/*height: 31px;*/
+	padding-top: 0;
+	padding-bottom: 0;
+	
+}
+@media screen and (max-width: 365px){
+ .form-control{
+  height: 25px;
+ }
+}
+
+
+
+@media screen and (min-width:413px){
+ .form-control{
+  height: 35px;
+ }
+#bg1{
+ width: 100%;
+ height: 105%;
+ position: relative;
+}
+}
